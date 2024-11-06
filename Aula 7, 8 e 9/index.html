@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/Lua.jfif" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+            <p>Eu sou Maria</p>
+            <h1>Eu estou aprendendo <span style="color: #6d94b4;"><br>Efeitos Visuais</span> e <span style="color: #6d94b4;">Animação</span></h1>
+            <p>Sou estudante. Estou aprendendo <strong>Efeitos Visuais</strong></span>,<strong> Animação</strong> e <strong>Programação</strong>.<br>
+                 Aprendo a matéria usando <strong>Blender, After Effects, Adobe Photoshop e Illustrator, HTML, CSS e JavaScript.</strong><br> Veja os projetos
+                que já desenvolvi!</p>
+        <div>
+            <p class="badge bg-secondary">Blender</p>
+            <p class="badge bg-secondary">After Effects</p>
+            <p class="badge bg-secondary">Adobe Combo</p>
+            <p class="badge bg-secondary">Photoshop e Illustrator</p>
+            <p class="badge bg-secondary">JavaScript</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto1.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Arcane: Blender.</h5>
+                        <p class="card-text">Este é um projeto cinematográfico. Teve sua primeira etapa 3D feito no Blender, com personagens e cenários modelados diretamente na plataforma.
+                        </p>
+                       
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto2.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Green Screen no After Effects.
+                        </h5>
+                        <p class="card-text">Projeto repassado à plataforma para edição visual. É adicionado efeitos de animação, de gráficos, de vídeo e movimento após o take original.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto3.jpeg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Adobe Combo.
+                        </h5>
+                        <p class="card-text">Este projeto consciste na propaganda da Adobe Combo, incluindo e apresentando todos os seus recursos.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Arcane: Blender.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Para criar a animação de Arcane, foi utilizado uma combinação de softwares poderosos para obter o visual único da série. Softwares como o Blender foram fundamentais para a modelagem 3D e animação dos personagens e cenários. Esses programas permitiram a criação de personagens com movimentos fluidos e ambientes detalhados em 3D. Já para texturização, o Substance Painter foi usado, oferecendo materiais realistas e detalhados com pintura digital que dá o toque artístico característico da série.
+
+                        Além disso, também foi o After Effects para criar alguns efeitos visuais adicionais e retoques.</p>
+                    <img src="img/gifarcane.gif" width="460" height="460" alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.instagram.com/arcaneshow/">Ver projeto ao vivo</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">After Effects.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é filmado em frente a uma tela verde para capturar seus movimentos e interações sem o cenário ao redor. No After Effects, é feito a substituição do fundo verde por um ambiente criado em camadas.
+
+ As sombras foram refletidas e os reflexos para que tudo parecesse natural e integrado, ajustando a iluminação digital para coincidir com a iluminação da filmagem. </p>
+                    <img src="img/gifaftereffects.gif" width="460" height="350" alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="">Veja mais projetos com Green Screen</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Adobe Apps</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Propaganda criada para Adobe, apresentando todas as possíveis criações dentro do pacote. Aqui também estão projetos criados em outros aplicativos da Adobe, como Photoshop, Illustrator, etc.
+                         Em geral, são constituidos tanto por animações, edições de vídeo, desenhos 2D e posts para propaganda e marketing.</p>
+                    <img src="img/videobillie.gif" width="460" height="260" alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="">Veja mais projetos relacionados</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <a href="https://github.com/tkymoon">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Maria Pavanelo</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
